@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - A program that print alphabet
+ * main - a program that print alphabet
+ *
  * Return: 0 (Success)
  */
- int main()
+ int main(void)
 {
 	char alp;
 	for (alp = 'a'; alp <= 'z'; alp++)
@@ -12,4 +13,5 @@
 
 	putchar('\n');
 
-	return 0;
+	return (0);
+}
