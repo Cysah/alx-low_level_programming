@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - entry level
+ * main - a program that print digit number
  *
  * Return 0 (Success)
  */
@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar(numb + '0');
 
-	}	
+	}
 	putchar('\n');
 	return (0);
-}	
+}
