@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - enrty level
+ * main - entry level
  *
  * Return 0 (Success)
  */
@@ -12,7 +12,6 @@ int main(void)
 
 	for (numb = 0; numb <= 9; numb++)
 	{
-	
 		putchar(numb + '0');
 
 	}	
