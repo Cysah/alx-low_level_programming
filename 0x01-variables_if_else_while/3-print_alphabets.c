@@ -5,7 +5,7 @@
  *
  * Return: 0 (Success)
  */
-inter main(void)
+int main(void)
 {
 	char alp;
 
