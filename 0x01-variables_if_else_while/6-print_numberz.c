@@ -6,7 +6,7 @@
  * Return 0 (Success)
  */
 
-int main(zero)
+int main(void)
 {
 	int numb;
 
