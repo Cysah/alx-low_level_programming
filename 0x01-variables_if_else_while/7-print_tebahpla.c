@@ -8,11 +8,12 @@
 int main(void)
 {
 
-	int numb;
+	char a;
 
-	for(numb = 9; numb >= 0; numb--)
+	for(a = 'z'; a >= 'a'; a--)
 	{
-		putchar(numb + '0');
+		putchar(c);
 	}
 	putchar('\n');
+	return (0);
 }
