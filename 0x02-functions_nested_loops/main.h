@@ -1,8 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-1 (int _putchar(char c);
+1
 2
 3
-
- #endif
+4
+5
+6 int _putctar(char c);
+7
+#endif
