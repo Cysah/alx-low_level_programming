@@ -1,20 +1,10 @@
 #include "main.h"
 
-/**
- * print_alphabet - A program that print alphabet in lower case.
- *
- * Return: Always 0.
- */
-
 void print_alphabet(void)
 {
-	char alp = 'a';
+	char i;
 
-	while (alp <= 'Z')
-	{
-	        _putchar(alp);
-		alp++;
-	}
+	for (i = 'a'; i <= 'Z'; i++)
+	        _putchar(i);
 	_putchar('\n');
-	return
 }
