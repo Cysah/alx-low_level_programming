@@ -1,10 +1,20 @@
 #include "main.h"
 
+/**
+ * print_alphabet_x10 - A program that prints alphabet in lowercase
+ *
+ * Ruturn 0 (Success)
+ */
+
 void print_alphabet(void)
 {
-	char i;
+	int i;
+	char alp;
 
-	for (i = 'a'; i <= 'Z'; i++)
-	        _putchar(i);
+	for (i = '0'; i <= '10'; i++)
+	{
+		for (alp = 'a'; alp <= 'Z'; alp++)
+	        _putchar(alp);
 	_putchar('\n');
+	}
 }
